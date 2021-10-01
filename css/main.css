@@ -349,6 +349,7 @@ Deuxième pages doc.html : Qui suis-je ?
 }
 #picture {
   display: flex;
+  justify-content: space-around;
   
 }
 #text{
@@ -356,4 +357,34 @@ Deuxième pages doc.html : Qui suis-je ?
   width: 180%;
   font-size: 15px;
   
+}
+#change{
+  font-family: Snell Roundhand, cursive;
+}
+
+/* 
+*
+Troisième feuille : Galerie.html : photo de Mlle Emily white
+*
+*/
+#sit img{
+  width: 80%;
+  margin: 0;
+}
+
+#two img{
+  width: 100%;
+  margin: 0;
+  vertical-align: middle;
+ 
+}
+#black img{
+  width: 80%;
+  margin: 0;
+}
+#align{
+  display: flex;
+  align-content: center;
+  justify-content: space-around; 
+
 }
