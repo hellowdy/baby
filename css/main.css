@@ -308,26 +308,19 @@ li{
   
 }
 p{
-  font-size: 180%;
-  
-  
+  font-size: 180%;  
 }
+
+
 #title{
-  
-  justify-content: center;
-  flex-direction: column;
-  align-content: flex-start;
   position: absolute;
-  right: 20%;
-  top :70%;
+
 }
 #lovely{
-  
-  justify-content: center;
-  margin-bottom: 0;
-  margin-top: 0;  
-  margin-left: 10%;
-  position: relative;
-  width: 100%;
+   position: relative;
+   max-width: 1000px;
+   max-height: 50%;
+ 
+ 
 }
 
