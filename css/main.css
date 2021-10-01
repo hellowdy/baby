@@ -370,7 +370,7 @@ Troisième feuille : Galerie.html : photo de Mlle Emily white
 * Première partie : femmes enceintes
 */
 #sit img{
-  width: 80%;
+  width: 100%;
   margin: 0;
   float: right;
 }
@@ -382,7 +382,7 @@ Troisième feuille : Galerie.html : photo de Mlle Emily white
  
 }
 #black img{
-  width: 80%;
+  width: 100%;
   margin: 0;
 }
 .align{
@@ -425,5 +425,4 @@ Troisième feuille : Galerie.html : photo de Mlle Emily white
 #white img{
   width: 100% ;
   margin: 0;
-  
 }
