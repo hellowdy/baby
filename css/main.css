@@ -332,3 +332,19 @@ main{
  height: 600px;
 }
 
+/* 
+*
+Deuxième pages doc.html : Qui sui-je ?
+*
+*/
+
+
+#my img{
+  width: 50%;
+}
+#center{
+  text-align: center;
+}
+#picture {
+  display: flex;
+}
