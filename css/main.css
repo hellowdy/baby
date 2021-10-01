@@ -334,17 +334,26 @@ main{
 
 /* 
 *
-Deuxième pages doc.html : Qui sui-je ?
+Deuxième pages doc.html : Qui suis-je ?
 *
 */
 
 
 #my img{
-  width: 50%;
+  width: 100%;
+  float: right;
 }
 #center{
   text-align: center;
+  font-family: Snell Roundhand, cursive;
 }
 #picture {
   display: flex;
+  
+}
+#text{
+  text-align: center;
+  width: 180%;
+  font-size: 15px;
+  
 }
