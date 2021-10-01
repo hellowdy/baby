@@ -261,6 +261,9 @@ textarea {
   }
 }
 
+body{
+  margin: 0;
+}
 header{
   background-color: white;
   height: 150px;
@@ -287,18 +290,15 @@ a{
 
 footer{
   background-color: white;
-  height: 150px;
+  height: 80px;
   flex-direction: row;
-  align-content: flex-end;
   display: flex;
   justify-content: space-around; 
   bottom: 0;
   align-items: center;
   width: 100%;
 }
-#logo{
-  
-}
+
 
 li{
   display: flex;
@@ -310,7 +310,10 @@ li{
 p{
   font-size: 180%;  
 }
-
+main{
+  padding: 10px;
+  padding-bottom: 60px;
+}
 
 #title{
   position: absolute;
@@ -318,15 +321,12 @@ p{
   right: 10%;
 
 }
-#lovely{
-  position: relative;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0 auto;
-  max-height: 300px;
-  max-width: 1000px;
- 
- 
+#lovely figure{
+ position: relative;
+  margin: 0;
+}
+#lovely img{
+ width: 100%;
+ height: 600px;
 }
 
