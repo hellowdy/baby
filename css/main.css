@@ -365,17 +365,19 @@ Deuxième pages doc.html : Qui suis-je ?
 /* 
 *
 Troisième feuille : Galerie.html : photo de Mlle Emily white
-*
+* Première partie : femmes enceintes
 */
 #sit img{
   width: 80%;
   margin: 0;
+  padding: 0;
+  
 }
 
 #two img{
   width: 100%;
   margin: 0;
-  vertical-align: middle;
+  
  
 }
 #black img{
@@ -387,4 +389,9 @@ Troisième feuille : Galerie.html : photo de Mlle Emily white
   align-content: center;
   justify-content: space-around; 
 
+}
+
+#dog img{
+  width: 100%;
+  margin: 0;
 }
