@@ -385,10 +385,12 @@ Troisième feuille : Galerie.html : photo de Mlle Emily white
   width: 80%;
   margin: 0;
 }
-#align{
+.align{
   display: flex;
+  flex-direction: row;
   justify-content: space-around; 
   align-items: center;
+  width: 100%;
 
 }
 
@@ -398,11 +400,30 @@ Troisième feuille : Galerie.html : photo de Mlle Emily white
 }
 
 #husband img{
-  width: 80%;
-  height: 110%;
+  width: 100%;
+  margin: 0;
+  
 }
 
 #cat img{
   width: 100%;
-  float: left;
+  margin: 0;
+  
+}
+
+#mother img{
+  width: 100%;
+  margin: 0;
+  
+}
+
+#sleep img{
+  width: 100%;
+  margin: 0;
+}
+
+#white img{
+  width: 100% ;
+  margin: 0;
+  
 }
