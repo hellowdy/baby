@@ -341,7 +341,7 @@ Deuxième pages doc.html : Qui suis-je ?
 
 #my img{
   width: 100%;
-  float: right;
+  
 }
 #center{
   text-align: center;
@@ -351,13 +351,16 @@ Deuxième pages doc.html : Qui suis-je ?
 }
 #picture {
   display: flex;
+  flex-direction: row;
   justify-content: space-around;
   
 }
 #text{
+  display: block;
+  margin: auto;
   text-align: center;
   width: 180%;
-  font-size: 15px;
+  font-size: 65%;
   
 }
 #change{
