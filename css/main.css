@@ -262,7 +262,7 @@ textarea {
 }
 
 /*
-* Première page
+* Première page acceuil
 *
 */
 body{
@@ -283,9 +283,8 @@ nav{
   display: flex;
   justify-content: space-around;
   font-size: 140%;
-  ;
-  
 }
+
 a{
  display: block;
  color: black;
@@ -306,6 +305,7 @@ footer{
 
 #em {
   display: flex;
+  flex-direction: column;
   font-style: italic;
   font-size: 16px; 
   list-style-type: none;
@@ -441,17 +441,26 @@ Quatrième pages : Tarifs femmes enceintes, nouveau-né et bébé*
 *
 */
 
-#beach{
+.beach{
   display: flex;
   flex-direction: row;
   align-items: center;
 }
-main section article ul li{
-  display: block;
-  margin: auto;
-  width: 180%;
-  font-size: 150%;
-}
-#pink{
+
+.pink{
   width: 100%;
+}
+.apple{
+  margin: auto;
+  width: 100%;
+  font-size: 150%;
+  align-items: center;
+}
+#gray{
+  display: inline;
+  margin-left: 20%;
+  align-items: center;
+  width: 100%;
+  font-size: 150%;
+
 }
