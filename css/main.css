@@ -457,10 +457,10 @@ Quatrième pages : Tarifs femmes enceintes, nouveau-né et bébé*
   align-items: center;
 }
 #gray{
-  display: inline;
-  margin-left: 20%;
+  display: flex;
+  margin-left: 10%;
   align-items: center;
   width: 100%;
   font-size: 150%;
-
+  display: table-cell;
 }
