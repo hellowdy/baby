@@ -261,6 +261,10 @@ textarea {
   }
 }
 
+/*
+* Première page
+*
+*/
 body{
   margin: 0;
 }
@@ -300,7 +304,7 @@ footer{
 }
 
 
-li{
+#em {
   display: flex;
   font-style: italic;
   font-size: 16px; 
@@ -366,6 +370,7 @@ Deuxième pages doc.html : Qui suis-je ?
 }
 #change{
   font-family: Snell Roundhand, cursive;
+  font-size: 180%;
 }
 
 /* 
@@ -375,8 +380,7 @@ Troisième feuille : Galerie.html : photo de Mlle Emily white
 */
 #sit img{
   width: 100%;
-  margin: 0;
-  
+  margin: 0; 
 }
 
 #two img{
@@ -429,4 +433,25 @@ Troisième feuille : Galerie.html : photo de Mlle Emily white
 #white img{
   width: 100% ;
   margin: 0;
+}
+
+/*
+*
+Quatrième pages : Tarifs femmes enceintes, nouveau-né et bébé*
+*
+*/
+
+#beach{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+main section article ul li{
+  display: block;
+  margin: auto;
+  width: 180%;
+  font-size: 150%;
+}
+#pink{
+  width: 100%;
 }
