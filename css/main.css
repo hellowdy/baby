@@ -303,7 +303,7 @@ footer{
 }
 
 
-#em {
+#normal {
   display: flex;
   flex-direction: column;
   font-style: italic;
@@ -406,6 +406,7 @@ Quatrième pages : Tarifs femmes enceintes, nouveau-né et bébé*
   display: flex;
   flex-direction: row;
   align-items: center;
+  width: 100%;
 }
 
 .pink{
@@ -424,4 +425,20 @@ Quatrième pages : Tarifs femmes enceintes, nouveau-né et bébé*
   width: 100%;
   font-size: 150%;
   display: table-cell;
+}
+
+/*
+* Cinquièmes feuilles : contactez-moi
+*
+*/
+
+form{
+ display: flex;
+ flex-direction: column;
+ width: 100%;
+ align-items: center;
+}
+
+#message{
+  height: 180%;
 }
