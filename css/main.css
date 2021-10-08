@@ -347,7 +347,7 @@ Deuxième pages doc.html : Qui suis-je ?
   width: 100%;
   
 }
-#center{
+.center{
   text-align: center;
   font-family: Snell Roundhand, cursive;
   margin-top: 5%;
