@@ -378,21 +378,8 @@ Deuxième pages doc.html : Qui suis-je ?
 Troisième feuille : Galerie.html : photo de Mlle Emily white
 * Première partie : femmes enceintes
 */
-#sit img{
-  width: 100%;
-  margin: 0; 
-}
 
-#two img{
-  width: 100%;
-  margin: 0;
-  
- 
-}
-#black img{
-  width: 100%;
-  margin: 0;
-}
+
 .align{
   display: flex;
   flex-direction: row;
@@ -402,38 +389,12 @@ Troisième feuille : Galerie.html : photo de Mlle Emily white
 
 }
 
-#dog img{
-  width: 100%;
-  margin: 0;
-}
-
-#husband img{
+.mother img{
   width: 100%;
   margin: 0;
   
 }
 
-#cat img{
-  width: 100%;
-  margin: 0;
-  
-}
-
-#mother img{
-  width: 100%;
-  margin: 0;
-  
-}
-
-#sleep img{
-  width: 100%;
-  margin: 0;
-}
-
-#white img{
-  width: 100% ;
-  margin: 0;
-}
 
 /*
 *
