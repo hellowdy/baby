@@ -47,28 +47,63 @@
   </header>
 
   <main>
-    <h1>Me contacter</h1>
+    <h1 class="center">Me contacter</h1>
     <form method="post" action="#">
-      
-      <label for="firstname">Prénom</label>
-      <input type="text" name="firstname" id="firstname" pattern="[a-zA-Z]+" placeholder="Entrez votre prénom">
-
-      <label for="username">Nom</label>
-      <input type="text" name="username" id="username" pattern="[a-zA-Z]+" placeholder="Entrez votre nom">
-
-      <label for="mail">Email</label>
-      <input type="email" id="mail" placeholder="Entrez votre email">
-
-      <label for="adress">Adresse</label>
-      <input type="text" name="adress" id="adress" placeholder="Entrez votre adresse" >
-
-      <label for="numero">Numéro</label>
-      <input type="number" name="numero" id="numero" minlength="10" maxlength="10" placeholder="Entrez votre numéro">
-
-      <label for="message">Message</label>
-      <input type="message" name="message" id="message" size="20"  placeholder="Entrez votre message">
-
-      <input type="submit" value="Envoyer le formulaire">
+      <table class="form-style">
+        <tr>
+          <td>
+            <label for="firstname"> Votre prénom</label>
+          </td>
+          <td>
+            <input type="text" name="firstname" id="firstname" class="long" pattern="[a-zA-Z]+" placeholder="Entrez votre prénom" required>
+          </td>  
+        </tr>
+        <tr>
+          <td>
+           <label for="username">Votre nom</label>
+          </td>
+          <td>
+            <input type="text" name="username" id="username" class="long" pattern="[a-zA-Z]+" placeholder="Entrez votre nom" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="mail">Voter email</label>
+          </td>
+          <td>
+            <input type="email" id="mail"  class="long" placeholder="Entrez votre email" required>
+          </td>  
+        </tr>
+        <tr>
+          <td>
+            <label for="adress">Votre adresse</label>
+          </td>
+          <td>
+            <input type="text" name="adress" id="adress" class="long" placeholder="Entrez votre adresse" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="numero">Voter numéro</label>
+          </td>
+          <td>
+            <input type="number" name="numero" id="numero" class="long" minlength="10" maxlength="10" placeholder="Entrez votre numéro" required>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <label for="message">Message</label>
+          </td>
+          <td>
+            <textarea name="message" id="" cols="30" rows="10"></textarea>
+          </td>
+        </tr>
+        <tr>
+          <td>
+           <input type="submit" value="Envoyer le formulaire">
+          </td>
+        </tr>  
+      </table>    
     </form>  
   </main>
 

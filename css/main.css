@@ -261,12 +261,16 @@ textarea {
   }
 }
 
-/*
+/************************************************************
 * Première page acceuil
 *
-*/
-body{
+***********************************************************/
+main{
   margin: 0;
+  padding: 0;
+  /*scroll-behavior: smooth;
+  box-sizing: border-box;*/
+  
 }
 header{
   background-color: white;
@@ -277,6 +281,10 @@ header{
   align-items: center;
   justify-content: space-around;
   
+}
+body{
+  margin: 0;
+  width: 100%;
 }
 nav{
   width: 60%;
@@ -302,8 +310,7 @@ footer{
   width: 100%;
 }
 
-
-#normal {
+footer article ul li {
   display: flex;
   flex-direction: column;
   font-style: italic;
@@ -315,8 +322,9 @@ p{
   font-size: 180%;  
 }
 main{
-  padding: 10px;
+  /*padding: 10px;*/
   padding-bottom: 60px;
+  width: 100%;
 }
 
 #title{
@@ -327,25 +335,24 @@ main{
   
 
 }
-#lovely figure{
- position: relative;
-  margin: 0;
+#lovely{
+  width: 100%;
+  position: relative;
 }
-#lovely img{
+#lovely figure img {
+ position: relative;
  width: 100%;
- height: 600px;
 }
 
-/* 
+
+/*********************************************************
 *
 Deuxième pages doc.html : Qui suis-je ?
 *
-*/
+*******************************************************/
 
-
-#my img{
+.image figure{
   width: 100%;
-  
 }
 .center{
   text-align: center;
@@ -353,31 +360,32 @@ Deuxième pages doc.html : Qui suis-je ?
   margin-top: 5%;
   margin-bottom: 3%;
 }
-#picture {
+.picture {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
   
 }
 #text{
   display: block;
   margin: auto;
   text-align: center;
-  width: 180%;
+  width: 100%;
   font-size: 65%;
-
-  
 }
+
 #change{
   font-family: Snell Roundhand, cursive;
-  font-size: 180%;
+  font-size: 100%;
 }
 
-/* 
+/*****************************************************************
 *
 Troisième feuille : Galerie.html : photo de Mlle Emily white
 * Première partie : femmes enceintes
-*/
+*
+*******************************************************************/
 
 
 .align{
@@ -396,11 +404,11 @@ Troisième feuille : Galerie.html : photo de Mlle Emily white
 }
 
 
-/*
+/*******************************************************************
 *
 Quatrième pages : Tarifs femmes enceintes, nouveau-né et bébé*
 *
-*/
+*******************************************************************/
 
 .beach{
   display: flex;
@@ -413,32 +421,88 @@ Quatrième pages : Tarifs femmes enceintes, nouveau-né et bébé*
   width: 100%;
 }
 .apple{
-  margin: auto;
+  /*margin: auto;*/
   width: 100%;
   font-size: 150%;
   align-items: center;
+  margin-left: 10%;
 }
 #gray{
   display: flex;
-  margin-left: 10%;
+  
   align-items: center;
   width: 100%;
   font-size: 150%;
-  display: table-cell;
+  /*display: table-cell;*/
 }
 
-/*
-* Cinquièmes feuilles : contactez-moi
+/****************************************************************
 *
-*/
+*Cinquième pages : Me contacter
+*
+******************************************************************/
 
-form{
- display: flex;
- flex-direction: column;
- width: 100%;
- align-items: center;
+body{
+  margin: 0;
+  width: 100%;
+}
+h1{
+  text-align: center;
 }
 
-#message{
-  height: 180%;
+ .form-style {
+  margin:10px auto;
+  width: 400px;
+  padding: 20px 12px 10px 20px;
+  font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+.form-style td {
+  padding: 0;
+  display: block;
+  list-style: none;
+  margin: 10px 0 0 0;
+}
+.form-style label{
+  margin:0 0 3px 0;
+  padding:0px;
+  display:block;
+  font-weight: bold;
+}
+.form-style .required{
+  color:red;
+}
+.form-style input[type=submit]{
+  background: #4eb5f1;
+  padding: 8px 15px 8px 15px;
+  border: none;
+  color: #fff;
+}
+.form-style input[type=submit]:hover{
+  background: #4eb5f1;
+  box-shadow:none;
+}
+.form-style .field-textarea{
+  height: 100px;
+}
+.form-style input[type=text], 
+.form-style input[type=email],
+.form-style input[type=number],
+textarea{
+box-sizing: border-box;
+border:1px solid #BEBEBE;
+padding: 7px;
+margin:0px;
+outline: none;  
+}
+.form-style .long{
+  width: 100%;
+}
+
+.form-style input[type=text]:focus, 
+.form-style input[type=email]:focus,
+.form-style input[type=number]:focus,
+.form-style textarea:focus{
+box-shadow: 0 0 8px #88D5E9;
+border: 1px solid #88D5E9;
 }
