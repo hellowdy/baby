@@ -367,7 +367,7 @@ Deuxième pages doc.html : Qui suis-je ?
   align-items: center;
   
 }
-#text{
+.text{
   display: block;
   margin: auto;
   text-align: center;
@@ -375,10 +375,11 @@ Deuxième pages doc.html : Qui suis-je ?
   font-size: 65%;
 }
 
-#change{
+
+/*#change{
   font-family: Snell Roundhand, cursive;
   font-size: 100%;
-}
+}*/
 
 /*****************************************************************
 *
@@ -442,14 +443,6 @@ Quatrième pages : Tarifs femmes enceintes, nouveau-né et bébé*
 *
 ******************************************************************/
 
-body{
-  margin: 0;
-  width: 100%;
-}
-h1{
-  text-align: center;
-}
-
  .form-style {
   margin:10px auto;
   width: 400px;
@@ -506,3 +499,4 @@ outline: none;
 box-shadow: 0 0 8px #88D5E9;
 border: 1px solid #88D5E9;
 }
+
