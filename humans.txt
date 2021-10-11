@@ -3,11 +3,12 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Elodie -- créatrice du site -- <twitter>
 
 # THANKS
 
-    <name>
+    Je remercie toute les personnes de cette formation qui m'ont aidée à faire ce site.
+    Ainsi que le site pexel.com pour les photos.
 
 # TECHNOLOGY COLOPHON
 
