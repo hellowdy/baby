@@ -359,6 +359,7 @@ Deuxième pages doc.html : Qui suis-je ?
   font-family: Snell Roundhand, cursive;
   margin-top: 5%;
   margin-bottom: 3%;
+  position: relative;
 }
 .picture {
   display: flex;
@@ -448,6 +449,7 @@ Quatrième pages : Tarifs femmes enceintes, nouveau-né et bébé*
   width: 400px;
   padding: 20px 12px 10px 20px;
   font: 14px "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  position: relative;
 }
 
 .form-style td {
@@ -500,3 +502,9 @@ box-shadow: 0 0 8px #88D5E9;
 border: 1px solid #88D5E9;
 }
 
+/*.fondecran{
+position: absolute;
+min-width: 100%;
+max-height: 100%;
+top: 20%;
+}*/
